@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+nav{
+  width: 100%;
+  min-height: 50px;
+  background: #bfe3ff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+nav a{
+  min-width: 10px;
+  min-height: 10px;
+  padding: 1em;
+  font-size: 1.5em;
+  color: #2e0020;
+}
+nav a:hover{
+  background-color: #356b7a;
+  color: #e4e4e4;
+}
+main{
+  width: 60%;
+  min-height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.item{
+  width: 60%;
+  min-height: 400px;
+  background-color: #8286f5;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  box-shadow: inset 1px 1px 20px 0px rgb(46, 46, 46);
+  border-radius: 20px;
+
+}
+.grafika1{
+  background-image: url("img/stories.jpg");
+}
+.item h2{
+  text-align: center;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  padding: 1em;
+  background-color: rgba(6, 6, 6, 0.9);
+
+}
+h1{
+  font-size: 200%;
+
+}
+.grafikaimg{
+  width: 100%;
+
+}
+.obvodka{
+  margin: 2em 0 2em 0;
+  box-shadow: 1px 1px 20px 0px rgb(110, 110, 110);
+}
+.box{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h3{
+  font-size: 200%;
+}
+p{
+  font-size: 150%;
+}
