@@ -32,7 +32,7 @@ nav a:hover{
   color: #e4e4e4;
 }
 main{
-  width: 60%;
+  width: 80%;
   min-height: 500px;
   display: flex;
   flex-flow: row wrap;
@@ -104,4 +104,80 @@ p{
 .teneva ol li p{
   font-size: 20px;
   color: #686868;
+}
+section{
+  width: 100%;
+  min-height: 10px;
+}
+li, a{
+  all: unset; /*reset для всех браузеров*/
+}
+/* меню */
+.section_menu .nav{
+  width: 100%;
+  min-height: 10px;
+  background-color: rgb(255, 255, 255);
+}
+/* настройки для не нумеровоного списка */
+.section_menu .nav .ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* настройки для самих ссылок */
+.section_menu .nav .ul .li .a{
+  min-width: 1px;
+  min-height: 1px;
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  background-color: rgb(0, 0, 0);
+  font-size: 150%;
+}
+.code{
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+}
+.htmlk{
+  width: 45%;
+  min-height: 100px;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.htmlk + .htmlk{
+  margin-left: 5%;
+}
+pre code{
+  font-size: 100%;
+}
+/* второе меню */
+.nav2{
+  width: 100%;
+  min-height: 10px;
+  background-color: rgb(255, 255, 255);
+}
+/* настройки для не нумеровоного списка */
+.nav2 .ul2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* настройки для самих ссылок */
+.nav2 .ul2 .li2 .a2{
+  min-width: 1px;
+  min-height: 1px;
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  background-color: rgb(0, 0, 0);
+  font-size: 150%;
+}
+/*Добавляем отступы к элиментам*/
+.nav2 .li2 {
+  border-right: 10px solid #f20000;
+}
+/*Убираем с последнего ненужный отступ*/
+.nav2 .li2:last-child {
+  border-right: none;
 }
