@@ -29,6 +29,7 @@
       <a href="animation.html">Анимация</a>
       <a href="hablon.html">Шаблоны сайтов</a>
       <a href="menu.html">Менюшки</a>
+      <a href="img.html">Img</a>
       <a href="git.html">Git команды</a>
       <a href="soveti.html">Советы и годнота</a>
     </nav>
@@ -52,14 +53,14 @@
         <div class="htmlk">
           <pre>
             <code>
-      &lt;nav&gt;
-       &lt;ul&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home1&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home2&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home3&lt;/a&gt;&lt;/li&gt;
-       &lt;/ul&gt;
-      &lt;/nav&gt;
+&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Home1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Home2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Home3&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
             </code>
           </pre>
 
@@ -67,29 +68,29 @@
         <div class="htmlk">
           <pre>
           <code>
-            li, a{
-              all: unset; /*reset для всех браузеров*/
-            }
-            /* меню */
-            nav{
-              width: 100%;
-              min-height: 10px;
-            }
-            /* настройки для не нумерованного списка */
-            nav ul{
-              display: flex;
-              flex-flow: row wrap;
-              justify-content: center;
-            }
-            /* настройки для самих ссылок */
-            nav ul li a{
-              min-width: 1px;
-              min-height: 1px;
-              color: #ffffff;
-              padding: 0 10px 0 10px;
-              background-color: rgb(0, 0, 0);
-              font-size: 150%;
-            }
+li, a{
+  all: unset; /*reset для всех браузеров*/
+}
+/* меню */
+nav{
+  width: 100%;
+  min-height: 10px;
+}
+/* настройки для не нумерованного списка */
+nav ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* настройки для самих ссылок */
+nav ul li a{
+  min-width: 1px;
+  min-height: 1px;
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  background-color: rgb(0, 0, 0);
+  font-size: 150%;
+}
           </code>
           </pre>
         </div>
@@ -113,14 +114,14 @@
         <div class="htmlk">
           <pre>
             <code>
-      &lt;nav&gt;
-       &lt;ul&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home1&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home2&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#"&gt;Home3&lt;/a&gt;&lt;/li&gt;
-       &lt;/ul&gt;
-      &lt;/nav&gt;
+&lt;nav&gt;
+ &lt;ul&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Home1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Home2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Home3&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
             </code>
           </pre>
 
@@ -128,44 +129,44 @@
         <div class="htmlk">
           <pre>
           <code>
-            li, a{
-              all: unset; /*reset для всех браузеров*/
-            }
-            /* меню */
-            nav{
-              width: 100%;
-              min-height: 10px;
-            }
-            /* настройки для не нумеровоного списка */
-            nav ul{
-              display: flex;
-              flex-flow: row wrap;
-              justify-content: center;
-            }
-            /* настройки для самих ссылок */
-            nav ul li a{
-              min-width: 1px;
-              min-height: 1px;
-              color: #ffffff;
-              padding: 0 10px 0 10px;
-              background-color: rgb(0, 0, 0);
-              font-size: 150%;
-            }
-            /*Добавляем отступы к элиментам*/
-            nav li {
-              border-right: 10px solid #f20000;
-            }
-            /*Убираем с последнего ненужный отступ*/
-            nav li:last-child {
-              border-right: none;
-            }
+li, a{
+  all: unset; /*reset для всех браузеров*/
+}
+/* меню */
+nav{
+  width: 100%;
+  min-height: 10px;
+}
+/* настройки для не нумеровоного списка */
+nav ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* настройки для самих ссылок */
+nav ul li a{
+  min-width: 1px;
+  min-height: 1px;
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  background-color: rgb(0, 0, 0);
+  font-size: 150%;
+}
+/*Добавляем отступы к элиментам*/
+nav li {
+  border-right: 10px solid #f20000;
+}
+/*Убираем с последнего ненужный отступ*/
+nav li:last-child {
+  border-right: none;
+}
           </code>
           </pre>
         </div>
       </section>
       <!-- второе меню -->
       <!-- третье меню -->
-      
+
       <!-- третье меню -->
 
     </main>

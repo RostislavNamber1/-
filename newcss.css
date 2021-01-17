@@ -135,10 +135,14 @@ li, a{
 }
 .code{
   display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 100%;
   min-height: 50px;
+  margin: 0 auto;
 }
 .htmlk{
+  padding-left: 20px;
   width: 45%;
   min-height: 100px;
   background-color: rgb(232, 232, 232);
@@ -146,8 +150,8 @@ li, a{
   justify-content: flex-start;
   align-items: flex-start;
 }
-.htmlk + .htmlk{
-  margin-left: 5%;
+.htmlk + .htmlk, .section_menu + .code{
+  margin-top: 3%;
 }
 pre code{
   font-size: 100%;
