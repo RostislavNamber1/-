@@ -113,7 +113,7 @@ section{
   width: 100%;
   min-height: 10px;
 }
-li, a{
+li{
   all: unset; /*reset для всех браузеров*/
 }
 /* меню */
@@ -143,7 +143,6 @@ li, a{
   align-items: center;
   width: 100%;
   min-height: 50px;
-  margin: 0 auto;
 }
 .htmlk{
   padding-left: 20px;
