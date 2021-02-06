@@ -32,15 +32,16 @@ nav a:hover{
   color: #e4e4e4;
 }
 main{
-  width: 80%;
+  width: 100%;
   min-height: 500px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+  padding: 0 2% 0 2%;
 }
 .item{
-  width: 60%;
+  width: 50%;
   min-height: 400px;
   background-color: #8286f5;
   display: flex;
@@ -79,13 +80,16 @@ img{
   box-shadow: 1px 1px 20px 0px rgb(110, 110, 110);
 }
 .box{
-  width: 100%;
+  width: 49%;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+.box + .box{
+  margin-left: 1em;
 }
 p{
   font-size: 150%;
@@ -143,7 +147,7 @@ li, a{
 }
 .htmlk{
   padding-left: 20px;
-  width: 45%;
+  width: 51%;
   min-height: 100px;
   background-color: rgb(232, 232, 232);
   display: flex;
