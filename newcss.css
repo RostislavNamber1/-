@@ -10,6 +10,11 @@ body{
   flex-flow: row wrap;
   justify-content: center;
 }
+.link{
+  font-size: 2rem;
+  width: 100vw;
+  text-align: center;
+}
 nav{
   width: 100%;
   min-height: 50px;
