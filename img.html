@@ -35,33 +35,91 @@
       <a href="adaptiv.html">Адаптив</a>
     </nav>
     <main>
-      <h1>Способы для вставки картинок в сайты</h1>
+      <h1>Способы для вставки картинок в сайты с полной оптимизацией</h1>
 
+<!-- Блок для вставки кода -->
+      <div class="htmlk">
+        <div class="panel">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+        </div>
+        <pre>
+
+          <code>
+
+&lt;picture&gt;
+  &lt;source
+    sizes="(max-width: 608px) 100vw, 608px"
+    srcset="
+      /img/Z1s3TKV-1920w.avif 1920w,
+      /img/Z1s3TKV-1280w.avif 1280w,
+      /img/Z1s3TKV-640w.avif   640w,
+      /img/Z1s3TKV-320w.avif   320w
+    "
+    type="image/avif"
+  /&gt;
+  &lt;source
+     sizes="(max-width: 608px) 100vw, 608px"
+     srcset="
+       /img/Z1s3TKV-1920w.webp 1920w,
+       /img/Z1s3TKV-1280w.webp 1280w,
+       /img/Z1s3TKV-640w.webp   640w,
+       /img/Z1s3TKV-320w.webp   320w
+     "
+     type="image/webp"
+    /&gt;
+  &lt;source
+     sizes="(max-width: 608px) 100vw, 608px"
+     srcset="
+       /img/Z1s3TKV-1920w.jpg 1920w,
+       /img/Z1s3TKV-1280w.jpg 1280w,
+       /img/Z1s3TKV-640w.jpg   640w,
+       /img/Z1s3TKV-320w.jpg   320w
+     "
+     type="image/jpeg"
+    /&gt;
+    &lt;img
+    src="/2c0fd55a8c8cff2.jpeg"
+    alt="oauhgerougheo"
+    loading="lazy"
+    decoding="async"
+     style=
+        "background-size: cover;
+         background-image: none;"
+         /&gt;
+ &lt;/picture&gt;
+
+стили в css
+
+img {
+  /* Отзывчивый макет */
+   max-width: 100%;
+   height: auto;
+   /* Отзывчивый макет */
+   /* Ленивая отрисовка */
+    content-visibility: auto;
+   /* Ленивая отрисовка */
+ }
+          </code>
+        </pre>
+      </div>
+<!-- Блок для вставки кода -->
+      <br>
+      <h2>Краткая запись</h2>
       <div class="htmlk">
         <pre>
           <code>
 &lt;picture&gt;
-  &lt;source srcset="smaller.jpg" media="(max-width: 768px)"&gt;
-  &lt;source srcset="default.jpg"&gt;
-  &lt;img srcset="default.jpg" alt="My default image" loading="lazy"&gt;
+  &lt;source type="/img/avif" srcset="avif-kitten.svg" /&gt;
+  &lt;source type="/img/webp" srcset="webp-kitten.webp" /&gt;
+  &lt;img src="" alt="" loading="lazy" decoding="async"
+   style="max-width: 100%; height: auto;"
+   width="px" height="px"&gt;
 &lt;/picture&gt;
           </code>
         </pre>
       </div>
-
-      <div class="htmlk">
-        <pre>
-          <code>
-&lt;picture&gt;
-  &lt;source srcset="smaller_landscape.jpg" media="(max-width: 40em) and (orientation: landscape)"&gt;
-  &lt;source srcset="smaller_portrait.jpg" media="(max-width: 40em) and (orientation: portrait)"&gt;
-  &lt;source srcset="default_landscape.jpg" media="(min-width: 40em) and (orientation: landscape)"&gt;
-  &lt;source srcset="default_portrait.jpg" media="(min-width: 40em) and (orientation: portrait)"&gt;
-  &lt;img srcset="default_landscape.jpg" alt="My default image" loading="lazy"&gt;
-&lt;/picture&gt;
-          </code>
-        </pre>
-      </div><br>
 <a href="https://www.tune-it.ru/web/leksa/blog/-/blogs/1996258" target="_blank" class="link">как расположить картинку в блоке</a>
     </main>
   </body>

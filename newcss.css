@@ -9,6 +9,7 @@ body{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+
 }
 .link{
   font-size: 2rem;
@@ -30,7 +31,7 @@ nav a{
   min-height: 10px;
   padding: 1em;
   font-size: 1.5em;
-  color: #2e0020;
+  color: #000000;
 }
 nav a:hover{
   background-color: #356b7a;
@@ -150,19 +151,19 @@ li{
   min-height: 50px;
 }
 .htmlk{
-  padding-left: 20px;
-  width: 51%;
+  padding: 0 20px ;
+  min-width: 50%;
   min-height: 100px;
-  background-color: rgb(232, 232, 232);
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  background-color: #321b1b;
+  border-radius: 10px;
 }
 .htmlk + .htmlk, .section_menu + .code{
   margin-top: 3%;
 }
 pre code{
-  font-size: 1rem;
+  font-size: 20px;
+  color: #fffb9f;
+  font-weight: 700;
 }
 /* второе меню */
 .nav2{
@@ -192,4 +193,29 @@ pre code{
 /*Убираем с последнего ненужный отступ*/
 .nav2 .li2:last-child {
   border-right: none;
+}
+.panel{
+  width: 100%;
+  height: 20px;
+  padding: 5px 0;
+  display: flex;
+}
+.circle1{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #f04747;
+}
+.circle2{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #e4f14d;
+  margin: 0 5px;
+}
+.circle3{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #39fb69;
 }
